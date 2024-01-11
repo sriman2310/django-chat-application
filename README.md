@@ -1,18 +1,4 @@
-# Djangochat
 
-Learn how to build a real-time chat application using Django and Channels. The design is made using Tailwind CSS.
+This project focuses on developing a real-time chat application using Django Channels to address Django's synchronous limitations. The emphasis is on seamless WebSocket integration for responsive communication, overcoming challenges in scalability and instantaneous message delivery.
+Key features include user authentication, dynamic chat room creation, and real-time message updates. Technologies such as Django, Django Channels, JavaScript, and WebSocket are employed, with Channels Redis for efficient connection management. The project aims to showcase the effectiveness of Django Channels in enhancing the real-time interactivity of web applications.
 
-This repository is a part of a video tutorial on my YouTube channel: Code With Stein
-
-## YouTube
-* [Part 1](https://www.youtube.com/watch?v=OyUrMENgZRE)
-* [Part 2](https://www.youtube.com/watch?v=r8LN9yxLgdY)
-* [Part 3](https://www.youtube.com/watch?v=0CZuO5TV8SI)
-
-My channel:
-[CodeWithStein](https://www.youtube.com/channel/UCfVoYvY8BfTDeF63JQmQJvg/?sub_confirmation=1)
-
-## Author
-This repository and video is created by CodeWithStein. Check out my website for more information.
-
-[Code With Stein - Website](https://codewithstein.com)
