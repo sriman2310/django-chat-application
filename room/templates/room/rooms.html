@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Rooms | Djangochat{% endblock %}
+
+{% block content %}
+<div class="p-10 lg:p-20 text-center bg-gradient-to-b from-teal-500 to-teal-700 text-white">
+    <h1 class="text-3xl lg:text-6xl font-extrabold">Rooms</h1>
+</div>
+
+<div class="flex flex-wrap justify-center items-center">
+    {% for room in rooms %}
+        <div class="w-full lg:w-1/4 p-4 mt-4">
+            <div class="bg-gray-800 rounded-lg p-6 text-white shadow-md text-center">
+                <h2 class="mb-4 text-2xl font-semibold">{{ room.name }}</h2>
+
+                <a href="{% url 'room' room.slug %}" class="px-4 py-2 rounded-full text-white bg-blue-500 hover:bg-teal-600 transition duration-300">Join</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
